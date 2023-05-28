@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import CodeDisplayer from './Components/CodeDisplayer';
+import CodeInputer from './Components/CodeInputer';
+import './Components/CodeDisplayer.css';
+import './Components/CodeInputer.css';
+import './App.css'
 
 function App() {
+  const [outputCode, setOutputCode] = useState('');
+
+  const handleSubmit = (code) => {
+    setOutputCode(code);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App-body">
+      <div class="App">
+        <CodeInputer onSubmit={handleSubmit} />
+        <CodeDisplayer code={outputCode} />
+      </div>
     </div>
   );
 }
