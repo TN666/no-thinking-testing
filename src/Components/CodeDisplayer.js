@@ -6,6 +6,7 @@ const CodeDisplayer = ({ code }) => {
       <div class="output-container">
           <CodeEditor
             data-color-mode="dark"
+            data-testid="code-output"
             id="code-output"
             value={code}
             language="jsx"

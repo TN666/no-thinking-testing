@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --silent --transformIgnorePatterns 'node_modules/(?!@uiw/react-textarea-code-editor)/'",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
