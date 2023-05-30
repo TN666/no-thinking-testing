@@ -3,7 +3,7 @@
 # Before Use
 1. Get your API_Key from the URL below. https://platform.openai.com/account/api-keys
 2. Copy it
-3. Paste it to the OPENAI_API_KEY field at path `src/config.js`
+3. Paste it as a value of the OPENAI_API_KEY at path `src/config.js`
 
 # How to use
 
