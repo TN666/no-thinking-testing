@@ -1,10 +1,13 @@
-# Presentation
-
 <img width="1439" alt="截圖 2023-05-28 下午6 35 33" src="https://github.com/TN666/no-thinking-testing/assets/44137240/d2e116bc-776c-4464-83d2-8a0aac930e41">
 
+# Before Use
+1. Get your API_Key from the URL below. https://platform.openai.com/account/api-keys
+2. Copy it
+3. Paste it to the OPENAI_API_KEY field at path `src/config.js`
+
+# How to use
+
 ![My_Movie_6_MOV_AdobeExpress](https://github.com/TN666/no-thinking-testing/assets/44137240/f00b7253-eed4-49df-a9b0-27685fcb495e)
-
-
 
 1. Input your code into the left block
 2. Click on the Submit button
